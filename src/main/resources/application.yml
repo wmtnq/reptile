@@ -1,0 +1,16 @@
+server:
+  port: 5555
+spring:
+  datasource:
+    druid:
+      password: Dtw10781
+      username: chao
+      url: jdbc:mysql://111.231.244.96:3306/account_book?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.chao.reptitle.entity
+
+
