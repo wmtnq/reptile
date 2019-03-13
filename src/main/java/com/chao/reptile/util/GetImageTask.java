@@ -17,7 +17,6 @@ public class GetImageTask implements Runnable
         this.urlStr = urlStr;
     }
 
-    @Override
     public void run()
     {
         URL url = null;
